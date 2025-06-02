@@ -1,4 +1,4 @@
-````markdown
+
 [Κατηγορία:Python Commands]  
 [Σύνδεσμοι Python]
 
@@ -54,9 +54,9 @@ print a + 10, a * a
 
 Η βιβλιοθήκη Python Imaging Library (PIL) είναι ισχυρό εργαλείο για εργασία με εικόνες (αλλαγή μορφής, αλλαγή μεγέθους, περικοπή, σχεδίαση). Χρειάζεται ξεχωριστή εγκατάσταση. Δείτε: [http://www.pythonware.com/products/pil](http://www.pythonware.com/products/pil)
 
-```
 
-## Python resources
-[python website]([https://www.deepseek.com](https://www.python.org)
+## Πόροι για την Python
 
-[DeeepSeek Training | NobleProg](https://www.nobleprog.es/en/python-training)
+[Ιστοσελίδα Python](https://www.python.org)
+
+[Εκπαίδευση DeepSeek | NobleProg](https://www.nobleprog.es/en/python-training)
