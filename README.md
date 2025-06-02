@@ -1,20 +1,20 @@
 ````markdown
-[Category:Python Commands]  
-[Python Links]
+[Κατηγορία:Python Commands]  
+[Σύνδεσμοι Python]
 
-## Getting the current time and date
+## Λήψη της τρέχουσας ώρας και ημερομηνίας
 
-The `time` module offers functions for getting the current time and date.
+Το μοντέλο `time` προσφέρει συναρτήσεις για λήψη της τρέχουσας ώρας και ημερομηνίας.
 
 ```python
 import time
-s = time.asctime()  # as string
-i = time.time()     # as float
+s = time.asctime()  # ως συμβολοσειρά
+i = time.time()     # ως δεκαδικός αριθμός
 ````
 
-## Accessing web pages
+## Πρόσβαση σε ιστοσελίδες
 
-The HTML code of web pages and downloadable files from the web can be accessed in a similar way as reading files:
+Ο HTML κώδικας ιστοσελίδων και αρχεία από τον ιστό μπορούν να αναγνωστούν όπως τα αρχεία:
 
 ```python
 import urllib
@@ -23,26 +23,26 @@ page = urllib.urlopen(url)
 print page.read()
 ```
 
-## Finding out what is in a module
+## Εξερεύνηση περιεχομένων ενός module
 
-The contents of any module can be examined with:
+Το περιεχόμενο οποιουδήποτε module μπορεί να εξεταστεί με:
 
 ```python
 print dir(name_of_module)
 help(name_of_module)
 ```
 
-## Creating plots
+## Δημιουργία γραφημάτων
 
-The Matplotlib library contains a wide range of possibilities for creating graphs. See the 'gallery' link on [http://matplotlib.sourceforge.net](http://matplotlib.sourceforge.net) for examples. It needs to be installed separately.
+Η βιβλιοθήκη Matplotlib περιέχει πολλές δυνατότητες για δημιουργία γραφημάτων. Δείτε το 'gallery' στο [http://matplotlib.sourceforge.net](http://matplotlib.sourceforge.net) για παραδείγματα. Χρειάζεται ξεχωριστή εγκατάσταση.
 
 ```python
 from pylab import *
 ```
 
-## Database access
+## Πρόσβαση σε βάσεις δεδομένων
 
-Numpy is a library that allows operating on arrays and matrices. It needs to be installed separately. See: [http://numpy.scipy.org](http://numpy.scipy.org)
+Η Numpy είναι μια βιβλιοθήκη για πράξεις με πίνακες και μήτρες. Χρειάζεται ξεχωριστή εγκατάσταση. Δείτε: [http://numpy.scipy.org](http://numpy.scipy.org)
 
 ```python
 import numpy
@@ -50,12 +50,11 @@ a = numpy.array([1, 2, 3, 4, 5, 6])
 print a + 10, a * a
 ```
 
-## Image manipulation
+## Επεξεργασία εικόνων
 
-The Python Imaging Library (PIL) is a powerful tool for working with images (changing formats, resizing, cutting, drawing). It needs to be installed separately. See: [http://www.pythonware.com/products/pil](http://www.pythonware.com/products/pil)
+Η βιβλιοθήκη Python Imaging Library (PIL) είναι ισχυρό εργαλείο για εργασία με εικόνες (αλλαγή μορφής, αλλαγή μεγέθους, περικοπή, σχεδίαση). Χρειάζεται ξεχωριστή εγκατάσταση. Δείτε: [http://www.pythonware.com/products/pil](http://www.pythonware.com/products/pil)
 
 ```
-
 
 ## Python resources
 [python website]([https://www.deepseek.com](https://www.python.org)
