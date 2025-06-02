@@ -59,4 +59,4 @@ print a + 10, a * a
 
 [Ιστοσελίδα Python](https://www.python.org)
 
-[Εκπαίδευση DeepSeek | NobleProg](https://www.nobleprog.es/en/python-training)
+[Εκπαίδευση DeepSeek | NobleProg](https://www.nobleprog.gr/en/python-training)
